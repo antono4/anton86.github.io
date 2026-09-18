@@ -1,92 +1,75 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">anton86.github.io 👋</h1>
+<h1 align="center">Project 👋</h1>
 
 <p align="center">
-  <em>tes</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/anton86.github.io"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/anton86.github.io-blue?logo=github"></a>
   <a href="https://antono4.github.io/anton86.github.io/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-52-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/anton86.github.io">
+  <img alt="Files" src="https://img.shields.io/badge/Files-55-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:41:13 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`anton86.github.io`** adalah proyek Node.js yang dibangun dengan HTML, CSS, JavaScript.
-Demo berjalan tersedia melalui **GitHub Pages** di [`https://antono4.github.io/anton86.github.io/`](https://antono4.github.io/anton86.github.io/).
+Repository **`anton86.github.io`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/anton86.github.io/`](https://antono4.github.io/anton86.github.io/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 anton86.github.io/
-.github/
-  FUNDING.yml
-  workflows/
-.gitignore
-LICENSE
-config.toml
-content/
-  imprint.md
-  privacy.md
-  sections/
-gulpfile.js
-layouts/
-  _default/
-  index.html
-  partials/
-netlify.toml
-package.json
-postcss.config.js
-src/
-  css/
-static/
-  _redirects
-  css/
-  img/
-tailwind.config.js
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── layouts/              # layouts  ->  https://antono4.github.io/anton86.github.io/layouts/
 ```
 
 ## 🌐 Sub-Proyek / Demo
 
-Repository ini juga memuat sub-proyek (masing-masing punya `index.html` tersendiri):
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
 
-| Folder | Keterangan |
-|--------|-----------|
-| [`layouts`](./layouts) | layouts |
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`layouts`](./layouts) | [https://antono4.github.io/anton86.github.io/layouts/](https://antono4.github.io/anton86.github.io/layouts/) | layouts |
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `CSS`
 - `JavaScript`
 
-> Total **52 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **55 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/anton86.github.io/](https://antono4.github.io/anton86.github.io/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:41:13 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
